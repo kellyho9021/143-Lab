@@ -18,7 +18,7 @@ public class SJFSchedulingAlgorithm extends BaseSchedulingAlgorithm implements O
     SJFSchedulingAlgorithm(){
         // Fill in this method
         /*------------------------------------------------------------*/
-		pQueue = new PriorityQueue<Process>
+		pQueue = new PriorityQueue<Process>();
 
 
         /*------------------------------------------------------------*/

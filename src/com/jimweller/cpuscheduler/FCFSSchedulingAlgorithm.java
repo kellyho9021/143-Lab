@@ -16,7 +16,7 @@ public class FCFSSchedulingAlgorithm extends BaseSchedulingAlgorithm {
     FCFSSchedulingAlgorithm(){
         // Fill in this method
         /*------------------------------------------------------------*/
-		pQueue = new PriorityQueue<Process>(8, new ProcArrivalComparator());
+		pQueue = new PriorityQueue<Process>();
 
 
         /*------------------------------------------------------------*/
